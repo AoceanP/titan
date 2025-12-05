@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/Aleksandar/Desktop/titan/cmake-build-debug/TitanTests[1]_tests.cmake")
+  include("C:/Users/Aleksandar/Desktop/titan/cmake-build-debug/TitanTests[1]_tests.cmake")
+else()
+  add_test(TitanTests_NOT_BUILT TitanTests_NOT_BUILT)
+endif()
