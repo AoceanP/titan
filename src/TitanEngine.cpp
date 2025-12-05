@@ -3,7 +3,6 @@
 #include <algorithm>
 #include <iostream>
 
-// --- Notification Logic ---
 void NotificationSystem::trigger(const std::string& msg, bool success) {
     message = msg;
     timer = 2.0f;
@@ -12,7 +11,7 @@ void NotificationSystem::trigger(const std::string& msg, bool success) {
 void NotificationSystem::update(float dt) { if (timer > 0) timer -= dt; }
 void NotificationSystem::draw(int w) {
     if (timer <= 0) return;
-    ImGui::SetNextWindowPos(ImVec2(w/2.0f, 130.0f), ImGuiCond_Always, ImVec2(0.5f, 0.5f));
+    ImGui::SetNextWindowPos(ImVec2(w/2.0f, 140.0f), ImGuiCond_Always, ImVec2(0.5f, 0.5f));
     ImGui::SetNextWindowBgAlpha(0.95f * std::min(1.0f, timer));
     ImGui::PushStyleVar(ImGuiStyleVar_WindowRounding, 20.0f);
     ImGui::PushStyleColor(ImGuiCol_WindowBg, ImVec4(0.2f,0.2f,0.2f,1.0f));
@@ -23,7 +22,6 @@ void NotificationSystem::draw(int w) {
     ImGui::PopStyleColor(); ImGui::PopStyleVar();
 }
 
-// --- Candle Logic ---
 CandleBuffer::CandleBuffer(int size) : maxSize(size) { reserve(); curOpen=curHigh=curLow=0; }
 void CandleBuffer::reserve() { time.reserve(maxSize); open.reserve(maxSize); high.reserve(maxSize); low.reserve(maxSize); close.reserve(maxSize); }
 void CandleBuffer::clear() { time.clear(); open.clear(); high.clear(); low.clear(); close.clear(); }
@@ -43,18 +41,17 @@ void CandleBuffer::getMinMax(double& outMin, double& outMax) const {
     for(double v : high) if(v > outMax) outMax=v;
 }
 
-// --- Game Logic ---
 GameState::GameState() : gen(std::random_device{}()), dist(0.0, 1.0) {
-    for(int i=0; i<3; ++i) buffers[i].initCandle(currentPrice);
+    for(int i=0; i<2; ++i) buffers[i].initCandle(currentPrice);
     generateHistory();
 }
 
 void GameState::generateHistory() {
     double simPrice = 100.0;
-    for(int i=0; i<200; ++i) {
+    for(int i=0; i<50; ++i) {
         double shock = dist(gen) * 0.005;
         simPrice *= std::exp(0.0001 + shock);
-        for(int k=0; k<3; ++k) {
+        for(int k=0; k<2; ++k) {
             buffers[k].updateCandle(simPrice);
             buffers[k].timeAccumulator += 1.0;
             if(buffers[k].timeAccumulator >= durations[k]) {
@@ -71,9 +68,9 @@ void GameState::update(float realDt) {
     for(int i=0; i<subSteps; ++i) {
         double shock = dist(gen) * std::sqrt(dtSub) * vol * 0.01;
         currentPrice *= std::exp(shock);
-        for(int k=0; k<3; ++k) buffers[k].updateCandle(currentPrice);
+        for(int k=0; k<2; ++k) buffers[k].updateCandle(currentPrice);
     }
-    for(int k=0; k<3; ++k) {
+    for(int k=0; k<2; ++k) {
         buffers[k].timeAccumulator += realDt;
         if(buffers[k].timeAccumulator >= durations[k]) {
             double gTime = buffers[k].time.empty() ? 0.0 : buffers[k].time.back() + 1.0;
@@ -84,21 +81,17 @@ void GameState::update(float realDt) {
     notifs.update(realDt);
 }
 
+// SIMPLIFIED TRADING: Just 1 Unit
 void GameState::buy() {
-    if(tradeQty <= 0) return;
-    double cost = currentPrice * tradeQty;
-    if(cash >= cost) {
-        double val = (shares * entryPrice) + cost; shares += tradeQty; entryPrice = val/shares; cash -= cost;
-        notifs.trigger("Bought " + std::to_string(tradeQty) + " BTC", true);
-        log.insert(log.begin(), {"BUY", tradeQty, currentPrice, "Now"});
+    if(cash >= currentPrice) {
+        shares++; cash -= currentPrice;
+        notifs.trigger("Bought 1 Doughnut", true);
     } else notifs.trigger("Insufficient Funds", false);
 }
 
-void GameState::sell() { 
-    if(tradeQty <= 0) return;
-    if(shares >= tradeQty) { 
-        cash += currentPrice * tradeQty; shares -= tradeQty; if(shares==0) entryPrice=0;
-        notifs.trigger("Sold " + std::to_string(tradeQty) + " BTC", true);
-        log.insert(log.begin(), {"SELL", tradeQty, currentPrice}); 
-    } else notifs.trigger("No Shares", false);
+void GameState::sell() {
+    if(shares > 0) {
+        shares--; cash += currentPrice;
+        notifs.trigger("Sold 1 Doughnut", true);
+    } else notifs.trigger("No Doughnuts", false);
 }

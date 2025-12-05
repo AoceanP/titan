@@ -14,6 +14,6 @@ Call Stack (most recent call first):
 This warning is for project developers.  Use -Wno-dev to suppress it.
 
 -- Using Win32 for window creation
--- Configuring done (5.3s)
+-- Configuring done (5.6s)
 -- Generating done (0.0s)
 -- Build files have been written to: C:/Users/Aleksandar/Desktop/titan/cmake-build-debug
