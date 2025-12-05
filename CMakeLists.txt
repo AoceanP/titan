@@ -12,7 +12,7 @@ include_directories(include)
 add_executable(Titan
         src/main.cpp
         src/OrderBook.cpp
-        # src/MarketSim.cpp   <-- Uncomment this later when we add it!
+        src/MarketSim.cpp
 )
 
 # 2. Testing Setup (Google Test)
