@@ -1,0 +1,21 @@
+# ninja log v6
+1630	1670	7866364589852851	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	dad4501fb055db1a
+1	43	7866364573584790	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	56d621a9b997a54
+1515	1553	7866364588690745	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	bdc633da8818d3a3
+1	43	7866364573584790	C:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	56d621a9b997a54
+43	1515	7866364588299628	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	193764206ca42890
+43	1515	7866364588299628	C:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	193764206ca42890
+1515	1553	7866364588690745	C:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	bdc633da8818d3a3
+1553	1591	7866364589061809	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	724bcf511aad89e6
+1553	1591	7866364589061809	C:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	724bcf511aad89e6
+1591	1630	7866364589452273	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	aa8c9be30ddae010
+1748	1802	7866364591171728	CMakeFiles/googletest-populate-complete	b42fad2973774c5f
+1591	1630	7866364589452273	C:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	aa8c9be30ddae010
+1630	1670	7866364589852851	C:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	dad4501fb055db1a
+1670	1708	7866364590243852	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	f657056e796d0320
+1670	1708	7866364590243852	C:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	f657056e796d0320
+1709	1748	7866364590639832	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	b6b96ee59745b595
+1709	1748	7866364590639832	C:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	b6b96ee59745b595
+1748	1802	7866364591171728	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	b42fad2973774c5f
+1748	1802	7866364591171728	C:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	b42fad2973774c5f
+1748	1802	7866364591171728	C:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	b42fad2973774c5f

@@ -41,32 +41,134 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/Aleksandar/Desktop/titan/cmake-build-debug/
 # =============================================================================
+# Object build statements for STATIC_LIBRARY target imgui_lib
+
+
+#############################################
+# Order-only phony target for imgui_lib
+
+build cmake_object_order_depends_target_imgui_lib: phony || cmake_object_order_depends_target_glfw
+
+build CMakeFiles/imgui_lib.dir/_deps/imgui-src/imgui.cpp.obj: CXX_COMPILER__imgui_lib_unscanned_Debug C$:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/imgui-src/imgui.cpp || cmake_object_order_depends_target_imgui_lib
+  DEP_FILE = CMakeFiles\imgui_lib.dir\_deps\imgui-src\imgui.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Aleksandar/Desktop/titan/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/imgui-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/imgui-src/backends -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/implot-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/stb-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/include
+  OBJECT_DIR = CMakeFiles\imgui_lib.dir
+  OBJECT_FILE_DIR = CMakeFiles\imgui_lib.dir\_deps\imgui-src
+
+build CMakeFiles/imgui_lib.dir/_deps/imgui-src/imgui_demo.cpp.obj: CXX_COMPILER__imgui_lib_unscanned_Debug C$:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/imgui-src/imgui_demo.cpp || cmake_object_order_depends_target_imgui_lib
+  DEP_FILE = CMakeFiles\imgui_lib.dir\_deps\imgui-src\imgui_demo.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Aleksandar/Desktop/titan/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/imgui-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/imgui-src/backends -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/implot-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/stb-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/include
+  OBJECT_DIR = CMakeFiles\imgui_lib.dir
+  OBJECT_FILE_DIR = CMakeFiles\imgui_lib.dir\_deps\imgui-src
+
+build CMakeFiles/imgui_lib.dir/_deps/imgui-src/imgui_draw.cpp.obj: CXX_COMPILER__imgui_lib_unscanned_Debug C$:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/imgui-src/imgui_draw.cpp || cmake_object_order_depends_target_imgui_lib
+  DEP_FILE = CMakeFiles\imgui_lib.dir\_deps\imgui-src\imgui_draw.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Aleksandar/Desktop/titan/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/imgui-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/imgui-src/backends -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/implot-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/stb-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/include
+  OBJECT_DIR = CMakeFiles\imgui_lib.dir
+  OBJECT_FILE_DIR = CMakeFiles\imgui_lib.dir\_deps\imgui-src
+
+build CMakeFiles/imgui_lib.dir/_deps/imgui-src/imgui_tables.cpp.obj: CXX_COMPILER__imgui_lib_unscanned_Debug C$:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/imgui-src/imgui_tables.cpp || cmake_object_order_depends_target_imgui_lib
+  DEP_FILE = CMakeFiles\imgui_lib.dir\_deps\imgui-src\imgui_tables.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Aleksandar/Desktop/titan/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/imgui-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/imgui-src/backends -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/implot-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/stb-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/include
+  OBJECT_DIR = CMakeFiles\imgui_lib.dir
+  OBJECT_FILE_DIR = CMakeFiles\imgui_lib.dir\_deps\imgui-src
+
+build CMakeFiles/imgui_lib.dir/_deps/imgui-src/imgui_widgets.cpp.obj: CXX_COMPILER__imgui_lib_unscanned_Debug C$:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/imgui-src/imgui_widgets.cpp || cmake_object_order_depends_target_imgui_lib
+  DEP_FILE = CMakeFiles\imgui_lib.dir\_deps\imgui-src\imgui_widgets.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Aleksandar/Desktop/titan/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/imgui-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/imgui-src/backends -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/implot-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/stb-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/include
+  OBJECT_DIR = CMakeFiles\imgui_lib.dir
+  OBJECT_FILE_DIR = CMakeFiles\imgui_lib.dir\_deps\imgui-src
+
+build CMakeFiles/imgui_lib.dir/_deps/imgui-src/backends/imgui_impl_glfw.cpp.obj: CXX_COMPILER__imgui_lib_unscanned_Debug C$:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/imgui-src/backends/imgui_impl_glfw.cpp || cmake_object_order_depends_target_imgui_lib
+  DEP_FILE = CMakeFiles\imgui_lib.dir\_deps\imgui-src\backends\imgui_impl_glfw.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Aleksandar/Desktop/titan/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/imgui-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/imgui-src/backends -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/implot-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/stb-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/include
+  OBJECT_DIR = CMakeFiles\imgui_lib.dir
+  OBJECT_FILE_DIR = CMakeFiles\imgui_lib.dir\_deps\imgui-src\backends
+
+build CMakeFiles/imgui_lib.dir/_deps/imgui-src/backends/imgui_impl_opengl3.cpp.obj: CXX_COMPILER__imgui_lib_unscanned_Debug C$:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/imgui-src/backends/imgui_impl_opengl3.cpp || cmake_object_order_depends_target_imgui_lib
+  DEP_FILE = CMakeFiles\imgui_lib.dir\_deps\imgui-src\backends\imgui_impl_opengl3.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Aleksandar/Desktop/titan/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/imgui-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/imgui-src/backends -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/implot-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/stb-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/include
+  OBJECT_DIR = CMakeFiles\imgui_lib.dir
+  OBJECT_FILE_DIR = CMakeFiles\imgui_lib.dir\_deps\imgui-src\backends
+
+build CMakeFiles/imgui_lib.dir/_deps/implot-src/implot.cpp.obj: CXX_COMPILER__imgui_lib_unscanned_Debug C$:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/implot-src/implot.cpp || cmake_object_order_depends_target_imgui_lib
+  DEP_FILE = CMakeFiles\imgui_lib.dir\_deps\implot-src\implot.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Aleksandar/Desktop/titan/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/imgui-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/imgui-src/backends -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/implot-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/stb-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/include
+  OBJECT_DIR = CMakeFiles\imgui_lib.dir
+  OBJECT_FILE_DIR = CMakeFiles\imgui_lib.dir\_deps\implot-src
+
+build CMakeFiles/imgui_lib.dir/_deps/implot-src/implot_items.cpp.obj: CXX_COMPILER__imgui_lib_unscanned_Debug C$:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/implot-src/implot_items.cpp || cmake_object_order_depends_target_imgui_lib
+  DEP_FILE = CMakeFiles\imgui_lib.dir\_deps\implot-src\implot_items.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Aleksandar/Desktop/titan/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/imgui-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/imgui-src/backends -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/implot-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/stb-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/include
+  OBJECT_DIR = CMakeFiles\imgui_lib.dir
+  OBJECT_FILE_DIR = CMakeFiles\imgui_lib.dir\_deps\implot-src
+
+build CMakeFiles/imgui_lib.dir/_deps/implot-src/implot_demo.cpp.obj: CXX_COMPILER__imgui_lib_unscanned_Debug C$:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/implot-src/implot_demo.cpp || cmake_object_order_depends_target_imgui_lib
+  DEP_FILE = CMakeFiles\imgui_lib.dir\_deps\implot-src\implot_demo.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Aleksandar/Desktop/titan/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/imgui-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/imgui-src/backends -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/implot-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/stb-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/include
+  OBJECT_DIR = CMakeFiles\imgui_lib.dir
+  OBJECT_FILE_DIR = CMakeFiles\imgui_lib.dir\_deps\implot-src
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target imgui_lib
+
+
+#############################################
+# Link the static library libimgui_lib.a
+
+build libimgui_lib.a: CXX_STATIC_LIBRARY_LINKER__imgui_lib_Debug CMakeFiles/imgui_lib.dir/_deps/imgui-src/imgui.cpp.obj CMakeFiles/imgui_lib.dir/_deps/imgui-src/imgui_demo.cpp.obj CMakeFiles/imgui_lib.dir/_deps/imgui-src/imgui_draw.cpp.obj CMakeFiles/imgui_lib.dir/_deps/imgui-src/imgui_tables.cpp.obj CMakeFiles/imgui_lib.dir/_deps/imgui-src/imgui_widgets.cpp.obj CMakeFiles/imgui_lib.dir/_deps/imgui-src/backends/imgui_impl_glfw.cpp.obj CMakeFiles/imgui_lib.dir/_deps/imgui-src/backends/imgui_impl_opengl3.cpp.obj CMakeFiles/imgui_lib.dir/_deps/implot-src/implot.cpp.obj CMakeFiles/imgui_lib.dir/_deps/implot-src/implot_items.cpp.obj CMakeFiles/imgui_lib.dir/_deps/implot-src/implot_demo.cpp.obj || _deps/glfw-build/src/libglfw3.a
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = CMakeFiles\imgui_lib.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = libimgui_lib.a
+  TARGET_PDB = imgui_lib.a.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target Titan
 
 
 #############################################
 # Order-only phony target for Titan
 
-build cmake_object_order_depends_target_Titan: phony || .
+build cmake_object_order_depends_target_Titan: phony || cmake_object_order_depends_target_glfw cmake_object_order_depends_target_imgui_lib
 
 build CMakeFiles/Titan.dir/src/main.cpp.obj: CXX_COMPILER__Titan_unscanned_Debug C$:/Users/Aleksandar/Desktop/titan/src/main.cpp || cmake_object_order_depends_target_Titan
   DEP_FILE = CMakeFiles\Titan.dir\src\main.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Aleksandar/Desktop/titan/include
+  INCLUDES = -IC:/Users/Aleksandar/Desktop/titan/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/imgui-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/imgui-src/backends -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/implot-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/stb-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/include
+  OBJECT_DIR = CMakeFiles\Titan.dir
+  OBJECT_FILE_DIR = CMakeFiles\Titan.dir\src
+
+build CMakeFiles/Titan.dir/src/TitanEngine.cpp.obj: CXX_COMPILER__Titan_unscanned_Debug C$:/Users/Aleksandar/Desktop/titan/src/TitanEngine.cpp || cmake_object_order_depends_target_Titan
+  DEP_FILE = CMakeFiles\Titan.dir\src\TitanEngine.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Aleksandar/Desktop/titan/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/imgui-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/imgui-src/backends -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/implot-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/stb-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/include
+  OBJECT_DIR = CMakeFiles\Titan.dir
+  OBJECT_FILE_DIR = CMakeFiles\Titan.dir\src
+
+build CMakeFiles/Titan.dir/src/TitanGUI.cpp.obj: CXX_COMPILER__Titan_unscanned_Debug C$:/Users/Aleksandar/Desktop/titan/src/TitanGUI.cpp || cmake_object_order_depends_target_Titan
+  DEP_FILE = CMakeFiles\Titan.dir\src\TitanGUI.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Aleksandar/Desktop/titan/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/imgui-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/imgui-src/backends -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/implot-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/stb-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/include
   OBJECT_DIR = CMakeFiles\Titan.dir
   OBJECT_FILE_DIR = CMakeFiles\Titan.dir\src
 
 build CMakeFiles/Titan.dir/src/OrderBook.cpp.obj: CXX_COMPILER__Titan_unscanned_Debug C$:/Users/Aleksandar/Desktop/titan/src/OrderBook.cpp || cmake_object_order_depends_target_Titan
   DEP_FILE = CMakeFiles\Titan.dir\src\OrderBook.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Aleksandar/Desktop/titan/include
-  OBJECT_DIR = CMakeFiles\Titan.dir
-  OBJECT_FILE_DIR = CMakeFiles\Titan.dir\src
-
-build CMakeFiles/Titan.dir/src/MarketSim.cpp.obj: CXX_COMPILER__Titan_unscanned_Debug C$:/Users/Aleksandar/Desktop/titan/src/MarketSim.cpp || cmake_object_order_depends_target_Titan
-  DEP_FILE = CMakeFiles\Titan.dir\src\MarketSim.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Aleksandar/Desktop/titan/include
+  INCLUDES = -IC:/Users/Aleksandar/Desktop/titan/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/imgui-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/imgui-src/backends -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/implot-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/stb-src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/include
   OBJECT_DIR = CMakeFiles\Titan.dir
   OBJECT_FILE_DIR = CMakeFiles\Titan.dir\src
 
@@ -78,9 +180,9 @@ build CMakeFiles/Titan.dir/src/MarketSim.cpp.obj: CXX_COMPILER__Titan_unscanned_
 #############################################
 # Link the executable Titan.exe
 
-build Titan.exe: CXX_EXECUTABLE_LINKER__Titan_Debug CMakeFiles/Titan.dir/src/main.cpp.obj CMakeFiles/Titan.dir/src/OrderBook.cpp.obj CMakeFiles/Titan.dir/src/MarketSim.cpp.obj
+build Titan.exe: CXX_EXECUTABLE_LINKER__Titan_Debug CMakeFiles/Titan.dir/src/main.cpp.obj CMakeFiles/Titan.dir/src/TitanEngine.cpp.obj CMakeFiles/Titan.dir/src/TitanGUI.cpp.obj CMakeFiles/Titan.dir/src/OrderBook.cpp.obj | libimgui_lib.a _deps/glfw-build/src/libglfw3.a || _deps/glfw-build/src/libglfw3.a libimgui_lib.a
   FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = libimgui_lib.a  _deps/glfw-build/src/libglfw3.a  -lopengl32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Titan.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -582,11 +684,349 @@ build _deps/googletest-build/googletest/CMakeFiles/install/strip.util: CUSTOM_CO
 build _deps/googletest-build/googletest/install/strip: phony _deps/googletest-build/googletest/CMakeFiles/install/strip.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/Aleksandar/Desktop/titan/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for uninstall
+
+build _deps/glfw-build/uninstall: phony _deps/glfw-build/CMakeFiles/uninstall
+
+
+#############################################
+# Utility command for test
+
+build _deps/glfw-build/CMakeFiles/test.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Aleksandar\Desktop\titan\cmake-build-debug\_deps\glfw-build && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\ctest.exe" --force-new-ctest-process "
+  DESC = Running tests...
+  pool = console
+  restat = 1
+
+build _deps/glfw-build/test: phony _deps/glfw-build/CMakeFiles/test.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build _deps/glfw-build/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Aleksandar\Desktop\titan\cmake-build-debug\_deps\glfw-build && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build _deps/glfw-build/edit_cache: phony _deps/glfw-build/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build _deps/glfw-build/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Aleksandar\Desktop\titan\cmake-build-debug\_deps\glfw-build && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\Aleksandar\Desktop\titan -BC:\Users\Aleksandar\Desktop\titan\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build _deps/glfw-build/rebuild_cache: phony _deps/glfw-build/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build _deps/glfw-build/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build _deps/glfw-build/CMakeFiles/install.util: CUSTOM_COMMAND _deps/glfw-build/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Aleksandar\Desktop\titan\cmake-build-debug\_deps\glfw-build && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build _deps/glfw-build/install: phony _deps/glfw-build/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build _deps/glfw-build/CMakeFiles/install/local.util: CUSTOM_COMMAND _deps/glfw-build/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Aleksandar\Desktop\titan\cmake-build-debug\_deps\glfw-build && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build _deps/glfw-build/install/local: phony _deps/glfw-build/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build _deps/glfw-build/CMakeFiles/install/strip.util: CUSTOM_COMMAND _deps/glfw-build/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Aleksandar\Desktop\titan\cmake-build-debug\_deps\glfw-build && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build _deps/glfw-build/install/strip: phony _deps/glfw-build/CMakeFiles/install/strip.util
+
+
+#############################################
+# Custom command for _deps\glfw-build\CMakeFiles\uninstall
+
+build _deps/glfw-build/CMakeFiles/uninstall | ${cmake_ninja_workdir}_deps/glfw-build/CMakeFiles/uninstall: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Aleksandar\Desktop\titan\cmake-build-debug\_deps\glfw-build && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -P C:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-build/cmake_uninstall.cmake"
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for update_mappings
+
+build _deps/glfw-build/src/update_mappings: phony _deps/glfw-build/src/CMakeFiles/update_mappings
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target glfw
+
+
+#############################################
+# Order-only phony target for glfw
+
+build cmake_object_order_depends_target_glfw: phony || .
+
+build _deps/glfw-build/src/CMakeFiles/glfw.dir/context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/src/context.c || cmake_object_order_depends_target_glfw
+  DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
+  DEP_FILE = _deps\glfw-build\src\CMakeFiles\glfw.dir\context.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always -Wall -Wdeclaration-after-statement
+  INCLUDES = -IC:/Users/Aleksandar/Desktop/titan/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-build/src
+  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+
+build _deps/glfw-build/src/CMakeFiles/glfw.dir/init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/src/init.c || cmake_object_order_depends_target_glfw
+  DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
+  DEP_FILE = _deps\glfw-build\src\CMakeFiles\glfw.dir\init.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always -Wall -Wdeclaration-after-statement
+  INCLUDES = -IC:/Users/Aleksandar/Desktop/titan/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-build/src
+  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+
+build _deps/glfw-build/src/CMakeFiles/glfw.dir/input.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/src/input.c || cmake_object_order_depends_target_glfw
+  DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
+  DEP_FILE = _deps\glfw-build\src\CMakeFiles\glfw.dir\input.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always -Wall -Wdeclaration-after-statement
+  INCLUDES = -IC:/Users/Aleksandar/Desktop/titan/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-build/src
+  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+
+build _deps/glfw-build/src/CMakeFiles/glfw.dir/monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/src/monitor.c || cmake_object_order_depends_target_glfw
+  DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
+  DEP_FILE = _deps\glfw-build\src\CMakeFiles\glfw.dir\monitor.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always -Wall -Wdeclaration-after-statement
+  INCLUDES = -IC:/Users/Aleksandar/Desktop/titan/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-build/src
+  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+
+build _deps/glfw-build/src/CMakeFiles/glfw.dir/vulkan.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/src/vulkan.c || cmake_object_order_depends_target_glfw
+  DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
+  DEP_FILE = _deps\glfw-build\src\CMakeFiles\glfw.dir\vulkan.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always -Wall -Wdeclaration-after-statement
+  INCLUDES = -IC:/Users/Aleksandar/Desktop/titan/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-build/src
+  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+
+build _deps/glfw-build/src/CMakeFiles/glfw.dir/window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/src/window.c || cmake_object_order_depends_target_glfw
+  DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
+  DEP_FILE = _deps\glfw-build\src\CMakeFiles\glfw.dir\window.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always -Wall -Wdeclaration-after-statement
+  INCLUDES = -IC:/Users/Aleksandar/Desktop/titan/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-build/src
+  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+
+build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/src/win32_init.c || cmake_object_order_depends_target_glfw
+  DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
+  DEP_FILE = _deps\glfw-build\src\CMakeFiles\glfw.dir\win32_init.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always -Wall -Wdeclaration-after-statement
+  INCLUDES = -IC:/Users/Aleksandar/Desktop/titan/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-build/src
+  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+
+build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/src/win32_joystick.c || cmake_object_order_depends_target_glfw
+  DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
+  DEP_FILE = _deps\glfw-build\src\CMakeFiles\glfw.dir\win32_joystick.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always -Wall -Wdeclaration-after-statement
+  INCLUDES = -IC:/Users/Aleksandar/Desktop/titan/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-build/src
+  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+
+build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/src/win32_monitor.c || cmake_object_order_depends_target_glfw
+  DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
+  DEP_FILE = _deps\glfw-build\src\CMakeFiles\glfw.dir\win32_monitor.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always -Wall -Wdeclaration-after-statement
+  INCLUDES = -IC:/Users/Aleksandar/Desktop/titan/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-build/src
+  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+
+build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_time.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/src/win32_time.c || cmake_object_order_depends_target_glfw
+  DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
+  DEP_FILE = _deps\glfw-build\src\CMakeFiles\glfw.dir\win32_time.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always -Wall -Wdeclaration-after-statement
+  INCLUDES = -IC:/Users/Aleksandar/Desktop/titan/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-build/src
+  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+
+build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_thread.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/src/win32_thread.c || cmake_object_order_depends_target_glfw
+  DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
+  DEP_FILE = _deps\glfw-build\src\CMakeFiles\glfw.dir\win32_thread.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always -Wall -Wdeclaration-after-statement
+  INCLUDES = -IC:/Users/Aleksandar/Desktop/titan/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-build/src
+  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+
+build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/src/win32_window.c || cmake_object_order_depends_target_glfw
+  DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
+  DEP_FILE = _deps\glfw-build\src\CMakeFiles\glfw.dir\win32_window.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always -Wall -Wdeclaration-after-statement
+  INCLUDES = -IC:/Users/Aleksandar/Desktop/titan/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-build/src
+  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+
+build _deps/glfw-build/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/src/wgl_context.c || cmake_object_order_depends_target_glfw
+  DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
+  DEP_FILE = _deps\glfw-build\src\CMakeFiles\glfw.dir\wgl_context.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always -Wall -Wdeclaration-after-statement
+  INCLUDES = -IC:/Users/Aleksandar/Desktop/titan/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-build/src
+  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+
+build _deps/glfw-build/src/CMakeFiles/glfw.dir/egl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/src/egl_context.c || cmake_object_order_depends_target_glfw
+  DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
+  DEP_FILE = _deps\glfw-build\src\CMakeFiles\glfw.dir\egl_context.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always -Wall -Wdeclaration-after-statement
+  INCLUDES = -IC:/Users/Aleksandar/Desktop/titan/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-build/src
+  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+
+build _deps/glfw-build/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/src/osmesa_context.c || cmake_object_order_depends_target_glfw
+  DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
+  DEP_FILE = _deps\glfw-build\src\CMakeFiles\glfw.dir\osmesa_context.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always -Wall -Wdeclaration-after-statement
+  INCLUDES = -IC:/Users/Aleksandar/Desktop/titan/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/include -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/src -IC:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-build/src
+  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target glfw
+
+
+#############################################
+# Link the static library _deps\glfw-build\src\libglfw3.a
+
+build _deps/glfw-build/src/libglfw3.a: C_STATIC_LIBRARY_LINKER__glfw_Debug _deps/glfw-build/src/CMakeFiles/glfw.dir/context.c.obj _deps/glfw-build/src/CMakeFiles/glfw.dir/init.c.obj _deps/glfw-build/src/CMakeFiles/glfw.dir/input.c.obj _deps/glfw-build/src/CMakeFiles/glfw.dir/monitor.c.obj _deps/glfw-build/src/CMakeFiles/glfw.dir/vulkan.c.obj _deps/glfw-build/src/CMakeFiles/glfw.dir/window.c.obj _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_init.c.obj _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_joystick.c.obj _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_monitor.c.obj _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_time.c.obj _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_thread.c.obj _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_window.c.obj _deps/glfw-build/src/CMakeFiles/glfw.dir/wgl_context.c.obj _deps/glfw-build/src/CMakeFiles/glfw.dir/egl_context.c.obj _deps/glfw-build/src/CMakeFiles/glfw.dir/osmesa_context.c.obj
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = _deps\glfw-build\src\libglfw3.a
+  TARGET_PDB = glfw3.a.dbg
+
+
+#############################################
+# Utility command for test
+
+build _deps/glfw-build/src/CMakeFiles/test.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Aleksandar\Desktop\titan\cmake-build-debug\_deps\glfw-build\src && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\ctest.exe" --force-new-ctest-process "
+  DESC = Running tests...
+  pool = console
+  restat = 1
+
+build _deps/glfw-build/src/test: phony _deps/glfw-build/src/CMakeFiles/test.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build _deps/glfw-build/src/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Aleksandar\Desktop\titan\cmake-build-debug\_deps\glfw-build\src && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build _deps/glfw-build/src/edit_cache: phony _deps/glfw-build/src/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build _deps/glfw-build/src/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Aleksandar\Desktop\titan\cmake-build-debug\_deps\glfw-build\src && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\Aleksandar\Desktop\titan -BC:\Users\Aleksandar\Desktop\titan\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build _deps/glfw-build/src/rebuild_cache: phony _deps/glfw-build/src/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build _deps/glfw-build/src/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build _deps/glfw-build/src/CMakeFiles/install.util: CUSTOM_COMMAND _deps/glfw-build/src/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Aleksandar\Desktop\titan\cmake-build-debug\_deps\glfw-build\src && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build _deps/glfw-build/src/install: phony _deps/glfw-build/src/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build _deps/glfw-build/src/CMakeFiles/install/local.util: CUSTOM_COMMAND _deps/glfw-build/src/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Aleksandar\Desktop\titan\cmake-build-debug\_deps\glfw-build\src && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build _deps/glfw-build/src/install/local: phony _deps/glfw-build/src/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build _deps/glfw-build/src/CMakeFiles/install/strip.util: CUSTOM_COMMAND _deps/glfw-build/src/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Aleksandar\Desktop\titan\cmake-build-debug\_deps\glfw-build\src && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build _deps/glfw-build/src/install/strip: phony _deps/glfw-build/src/CMakeFiles/install/strip.util
+
+
+#############################################
+# Custom command for _deps\glfw-build\src\CMakeFiles\update_mappings
+
+build _deps/glfw-build/src/CMakeFiles/update_mappings | ${cmake_ninja_workdir}_deps/glfw-build/src/CMakeFiles/update_mappings: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Aleksandar\Desktop\titan\cmake-build-debug\_deps\glfw-src\src && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -P C:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-src/CMake/GenerateMappings.cmake mappings.h.in mappings.h"
+  DESC = Updating gamepad mappings from upstream repository
+
+# =============================================================================
 # Target aliases.
 
 build Titan: phony Titan.exe
 
 build TitanTests: phony TitanTests.exe
+
+build glfw: phony _deps/glfw-build/src/libglfw3.a
 
 build gmock: phony lib/libgmock.a
 
@@ -596,6 +1036,10 @@ build gtest: phony lib/libgtest.a
 
 build gtest_main: phony lib/libgtest_main.a
 
+build imgui_lib: phony libimgui_lib.a
+
+build libglfw3.a: phony _deps/glfw-build/src/libglfw3.a
+
 build libgmock.a: phony lib/libgmock.a
 
 build libgmock_main.a: phony lib/libgmock_main.a
@@ -603,6 +1047,10 @@ build libgmock_main.a: phony lib/libgmock_main.a
 build libgtest.a: phony lib/libgtest.a
 
 build libgtest_main.a: phony lib/libgtest_main.a
+
+build uninstall: phony _deps/glfw-build/uninstall
+
+build update_mappings: phony _deps/glfw-build/src/update_mappings
 
 # =============================================================================
 # Folder targets.
@@ -612,7 +1060,21 @@ build libgtest_main.a: phony lib/libgtest_main.a
 #############################################
 # Folder: C:/Users/Aleksandar/Desktop/titan/cmake-build-debug
 
-build all: phony Titan.exe TitanTests.exe _deps/googletest-build/all
+build all: phony libimgui_lib.a Titan.exe TitanTests.exe _deps/googletest-build/all _deps/glfw-build/all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-build
+
+build _deps/glfw-build/all: phony _deps/glfw-build/src/all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/Aleksandar/Desktop/titan/cmake-build-debug/_deps/glfw-build/src
+
+build _deps/glfw-build/src/all: phony _deps/glfw-build/src/libglfw3.a
 
 # =============================================================================
 
@@ -642,14 +1104,14 @@ build _deps/googletest-build/googletest/all: phony lib/libgtest.a lib/libgtest_m
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/ExternalProject/PatchInfo.txt.in C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/ExternalProject/RepositoryInfo.txt.in C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/ExternalProject/UpdateInfo.txt.in C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/ExternalProject/download.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/ExternalProject/extractfile.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/ExternalProject/shared_internal_commands.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/ExternalProject/stepscript.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FetchContent.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPython3.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPython/Support.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/GoogleTest.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/Aleksandar/Desktop/titan/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake _deps/googletest-src/CMakeLists.txt _deps/googletest-src/googlemock/CMakeLists.txt _deps/googletest-src/googlemock/cmake/gmock.pc.in _deps/googletest-src/googlemock/cmake/gmock_main.pc.in _deps/googletest-src/googletest/CMakeLists.txt _deps/googletest-src/googletest/cmake/Config.cmake.in _deps/googletest-src/googletest/cmake/gtest.pc.in _deps/googletest-src/googletest/cmake/gtest_main.pc.in _deps/googletest-src/googletest/cmake/internal_utils.cmake
+build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckLibraryExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/ExternalProject/shared_internal_commands.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FetchContent.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FetchContent/CMakeLists.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindGit.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindOpenGL.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPython3.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPython/Support.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindThreads.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/GoogleTest.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/Aleksandar/Desktop/titan/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake _deps/glfw-src/CMakeLists.txt _deps/glfw-src/cmake_uninstall.cmake.in _deps/glfw-src/src/CMakeLists.txt _deps/glfw-src/src/glfw3.pc.in _deps/glfw-src/src/glfw3Config.cmake.in _deps/glfw-src/src/glfw_config.h.in _deps/googletest-src/CMakeLists.txt _deps/googletest-src/googlemock/CMakeLists.txt _deps/googletest-src/googlemock/cmake/gmock.pc.in _deps/googletest-src/googlemock/cmake/gmock_main.pc.in _deps/googletest-src/googletest/CMakeLists.txt _deps/googletest-src/googletest/cmake/Config.cmake.in _deps/googletest-src/googletest/cmake/gtest.pc.in _deps/googletest-src/googletest/cmake/gtest_main.pc.in _deps/googletest-src/googletest/cmake/internal_utils.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/ExternalProject/PatchInfo.txt.in C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/ExternalProject/RepositoryInfo.txt.in C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/ExternalProject/UpdateInfo.txt.in C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/ExternalProject/download.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/ExternalProject/extractfile.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/ExternalProject/shared_internal_commands.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/ExternalProject/stepscript.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FetchContent.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPython3.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPython/Support.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/GoogleTest.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/Aleksandar/Desktop/titan/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake _deps/googletest-src/CMakeLists.txt _deps/googletest-src/googlemock/CMakeLists.txt _deps/googletest-src/googlemock/cmake/gmock.pc.in _deps/googletest-src/googlemock/cmake/gmock_main.pc.in _deps/googletest-src/googletest/CMakeLists.txt _deps/googletest-src/googletest/cmake/Config.cmake.in _deps/googletest-src/googletest/cmake/gtest.pc.in _deps/googletest-src/googletest/cmake/gtest_main.pc.in _deps/googletest-src/googletest/cmake/internal_utils.cmake: phony
+build C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckLibraryExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/ExternalProject/shared_internal_commands.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FetchContent.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FetchContent/CMakeLists.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindGit.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindOpenGL.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPython3.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPython/Support.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindThreads.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/GoogleTest.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/Aleksandar/Desktop/titan/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake _deps/glfw-src/CMakeLists.txt _deps/glfw-src/cmake_uninstall.cmake.in _deps/glfw-src/src/CMakeLists.txt _deps/glfw-src/src/glfw3.pc.in _deps/glfw-src/src/glfw3Config.cmake.in _deps/glfw-src/src/glfw_config.h.in _deps/googletest-src/CMakeLists.txt _deps/googletest-src/googlemock/CMakeLists.txt _deps/googletest-src/googlemock/cmake/gmock.pc.in _deps/googletest-src/googlemock/cmake/gmock_main.pc.in _deps/googletest-src/googletest/CMakeLists.txt _deps/googletest-src/googletest/cmake/Config.cmake.in _deps/googletest-src/googletest/cmake/gtest.pc.in _deps/googletest-src/googletest/cmake/gtest_main.pc.in _deps/googletest-src/googletest/cmake/internal_utils.cmake: phony
 
 
 #############################################
