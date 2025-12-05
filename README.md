@@ -2,9 +2,7 @@
 
 **A High-Performance C++ Trading Simulator & Visualization Engine.**
 
-![Titan Dashboard]<img width="441" height="881" alt="Screenshot 2025-12-05 072527" src="https://github.com/user-attachments/assets/b9d58885-9a0b-4f52-9efa-2c85d08505fe" />
-
-*(Replace this link with a screenshot of your actual app running)*
+<img width="441" height="881" alt="Screenshot 2025-12-05 072527" src="https://github.com/user-attachments/assets/b9d58885-9a0b-4f52-9efa-2c85d08505fe" />
 
 ## Overview
 
